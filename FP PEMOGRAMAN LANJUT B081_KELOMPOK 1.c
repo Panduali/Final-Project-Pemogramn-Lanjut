@@ -168,7 +168,7 @@ menu:
         printf(" 1. Durasi\n");
         printf(" 2. Nama Mobil\n");
         printf(" 3. Merek\n");
-        printf("==>Masukkan Pilihan : ");
+        printf("==> Masukkan Pilihan : ");
         scanf("%d", &pilih);
 
         if (pilih == 1)
@@ -332,7 +332,7 @@ menu:
         if (pilih == 1)
         {
             printf(" Paket standar hanya termasuk penyewaan mobil saja\n ");
-            printf(" Masukan nominal untuk biaya penyewaan sesuai harga yang anda pilih : ");
+            printf(" Masukkan nominal untuk biaya penyewaan sesuai harga yang anda pilih : ");
             scanf("%d", &harga_standar);
             if (uang >= harga_standar)
             {
@@ -358,7 +358,7 @@ menu:
         if (pilih == 2)
         {
             printf(" Paket komplit sudah termasuk dengan biaya supir\n ");
-            printf(" Masukan nominal untuk biaya penyewaan sesuai harga yang anda pilih : ");
+            printf(" Masukkan nominal untuk biaya penyewaan sesuai harga yang anda pilih : ");
             scanf("%d", &harga_standar);
             if (uang >= harga_standar)
             {
